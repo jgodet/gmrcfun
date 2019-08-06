@@ -6,7 +6,7 @@ Version: 1.1
 Date: 2015-09-07
 Authors: Mickael Schaeffer - Julien Godet
 Maintainer: Julien Godet <julien.godet@chru-strasbourg.fr>
-Description: Ce package est un ensemble de fonctions utiles et pratiques developpées par le GMRC pour le traitement statistique de données, medicales ou non (descriptif, inferentiel, frequentiste et bayesien).
+Description: Ce package est un ensemble de fonctions utiles et pratiques developpees par le GMRC pour le traitement statistique de donnees, medicales ou non (descriptif, inferentiel, frequentiste et bayesien).
 License: GPL-3
 Imports: xtable, ggplot2, lme4, car, R2jags, R2WinBUGS, rjags,
         TraMineR, survival
