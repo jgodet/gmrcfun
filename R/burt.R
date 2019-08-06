@@ -5,10 +5,9 @@
 
 #' Make a disjonctif table
 #' @author JuG
-#' @description 
-#' Does the same as tab.disjonctif function from the  FactoMineR package (but slower :-) and only on vectors)
+#' @description Make a disjonctif table#' 
 #' @param x a factor vector
-#' @details 
+#' @details Does the same as tab.disjonctif function from the  FactoMineR package (but slower :-) and only on vectors)
 #' @examples 
 #' fact <-sample(x = LETTERS[1:5], size=10, replace=T)
 #' burt(fact)

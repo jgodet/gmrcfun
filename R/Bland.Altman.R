@@ -8,7 +8,6 @@
 #'
 #' @description Analyse de Concordance de Bland et Altman
 #' @details  manque une ref pour répétition des sujets
-#' 
 #' @param x,y Deux vecteurs de valeurs quantitatives
 #' @param alpha le seuil de significativite a definir 
 #' @param rep.mes si TRUE, les donnees sont des donnees repetees
