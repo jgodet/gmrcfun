@@ -7,12 +7,22 @@ Authors: Mickael Schaeffer, Julien Godet
 Maintainer: Julien Godet <julien.godet@chru-strasbourg.fr>
 Description: Ce package est un ensemble de fonctions utiles et pratiques developpees par le GMRC pour le traitement statistique de donnees, medicales ou non (descriptif, inferentiel, frequentiste et bayesien).
 License: GPL-3
-Imports: xtable, ggplot2, lme4, car, R2jags, R2WinBUGS, rjags,TraMineR, survival
-NeedsCompilation: no
-Packaged: 2017-02-09 10:43:30 UTC; 
-RoxygenNote: 6.1.1
-Suggests:
+Depends:
+  R (>= 3.5)
+Imports:
   pROC,
   irr,
   DT,
-  gdata
+  gdata,
+  ggplot2, 
+  lme4, 
+  car, 
+  R2jags, 
+  R2WinBUGS, 
+  rjags,
+  TraMineR, 
+  survival
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+
