@@ -5,9 +5,8 @@
 #
 
 #' Comparaison bayesienne de deux moyennes Gaussiennes
-#'
-#' Comparaison bayesienne de deux moyennes par methodes MCMC
-#' 
+#' @author JuG
+#' @description Comparaison bayesienne de deux moyennes par methodes MCMC
 #' @param X1,X2 Deux vecteurs Gaussiens 
 #' @param n.iter Le nombre d'iterations de la cha?ne MCMC 
 #' @param n.burnin Le nombre d'iterations a bruler de la chaine MCMC 
