@@ -12,4 +12,5 @@ NeedsCompilation: no
 Packaged: 2017-02-09 10:43:30 UTC; 
 RoxygenNote: 6.1.1
 Imports:
+  DT,
   gdata
