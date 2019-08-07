@@ -17,7 +17,7 @@
 
 
 
-plot.na2<-function(D,cumul=0,latex=0){
+plot_na2<-function(D,cumul=0,latex=0){
   if(cumul==2){D<-t(D)}
   setInternet2(TRUE)
   if(!require(TraMineR))install.packages('TraMineR'); library(TraMineR)

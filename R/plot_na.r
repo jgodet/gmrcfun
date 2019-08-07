@@ -10,12 +10,12 @@
 #' @details 
 #' @examples 
 #' dtf <- data.frame(varA = rnorm(10), varB = sample(x = LETTERS[1:2], size = 10, replace=T), varC = sample(c(1:9,NA), size=10) )
-#' plot.na(dtf)
+#' plot_na(dtf)
 #' @return 
 #' @export
 
 
-plot.na <- function(data_in, title = NULL){
+plot_na <- function(data_in, title = NULL){
   if(!require(ggplot2)){install.packages('ggplot2')}
   require(ggplot2)
   temp_df <- as.data.frame(ifelse(is.na(data_in), 1, 0))
