@@ -12,7 +12,6 @@ Depends:
 Imports:
   boot,
   car, 
-  dfexplore,
   DT,
   dplyr,
   Epi,
@@ -34,10 +33,6 @@ Imports:
   survival,
   TraMineR,
   xtable
-  
-  
-  
-  
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1

@@ -10,6 +10,9 @@ burt(x)
 \item{x}{a factor vector}
 }
 \description{
+Make a disjonctif table#'
+}
+\details{
 Does the same as tab.disjonctif function from the  FactoMineR package (but slower :-) and only on vectors)
 }
 \examples{

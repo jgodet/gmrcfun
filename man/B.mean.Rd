@@ -29,3 +29,6 @@ X1 <- rnorm(15,6,1)
 X2 <- rnorm(10,5,.5)
 B.mean(X1,X2)
 }
+\author{
+JuG
+}
