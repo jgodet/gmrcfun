@@ -3,14 +3,14 @@
 # August 06 2019
 
 
-#' Do something
+#' Graphical representation of  missing values present in a data.frame 
 #' @author JuG
-#' @description 
-#' @param 
+#' @description  Graphical representation of  missing values present in a data.frame 
+#' @param data_in data frame
 #' @details 
 #' @examples 
-#'
-#'
+#' dtf <- data.frame(varA = rnorm(10), varB = sample(x = LETTERS[1:2], size = 10, replace=T), varC = sample(c(1:9,NA), size=10) )
+#' plot.na(dtf)
 #' @return 
 #' @export
 
