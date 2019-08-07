@@ -2,16 +2,20 @@
 % Please edit documentation in R/plot.na.r
 \name{plot.na}
 \alias{plot.na}
-\title{Do something}
+\title{Graphical representation of  missing values present in a data.frame}
 \usage{
 \method{plot}{na}(data_in, title = NULL)
 }
+\arguments{
+\item{data_in}{data frame}
+}
 \description{
-Do something
+Graphical representation of  missing values present in a data.frame
 }
 \examples{
-
-
+dtf <- data.frame(varA = rnorm(10), varB = sample(x = LETTERS[1:2], size = 10, replace=T), varC = sample(c(1:9,NA), size=10) )
+plot.na(dtf)
+plot.na(dtf, title = "Titre")
 }
 \author{
 JuG
