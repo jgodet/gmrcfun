@@ -6,7 +6,7 @@
 #' Descriptive statistics for quantitative data as a function of a qualitative data
 #' @author JuG
 #' @description 
-#' @param X factor vector
+#' @param X factor (or group) vector
 #' @param Y numeric vector 
 #' @param Tap boolean (tri à plat)
 #' @param nom X label

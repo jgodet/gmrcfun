@@ -9,7 +9,7 @@ descr3(Y, X, Tap = FALSE, nom = NULL, nomY = NULL, latex = 0)
 \arguments{
 \item{Y}{numeric vector}
 
-\item{X}{factor vector}
+\item{X}{factor (or group) vector}
 
 \item{Tap}{boolean (tri à plat)}
 
