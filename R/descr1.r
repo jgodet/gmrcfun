@@ -5,7 +5,7 @@
 
 #' Descriptive statistics for quantitative data
 #' @author JuG
-#' @description 
+#' @description Descriptive statistics for quantitative data
 #' @param Y numeric vector 
 #' @param Tap boolean (tri à plat)
 #' @details 
