@@ -3,7 +3,7 @@ Type: Package
 Title: Package de fonctions du GMRC - Hopitaux Universitaires de Strasbourg
 Version: 1.1
 Date: 2015-09-07
-Authors: Mickael Schaeffer, Julien Godet
+Authors: Mickael Schaeffer, Nicolas Tuzin, Julien Godet
 Maintainer: Julien Godet <julien.godet@chru-strasbourg.fr>
 Description: Ce package est un ensemble de fonctions utiles et pratiques developpees par le GMRC pour le traitement statistique de donnees, medicales ou non (descriptif, inferentiel, frequentiste et bayesien).
 License: GPL-3
