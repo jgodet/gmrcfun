@@ -72,7 +72,7 @@ descr3<-function(Y,X,Tap=FALSE,nom=NULL, nomY =NULL, latex=0){
   stock<-tapply(Y,X,qtl)
   for(i in 1:nbnv){aze[12:18,1+i]<-stock[[i]]}
   
-  aze[19,]<-c(IQR(Y,na.rm=TRUE),tapply(Y,X,IQR,na.rm=T))
+  aze[19,]<-c( stats::IQR(Y,na.rm=TRUE),tapply(Y,X, stats::IQR,na.rm=T))
   
   liminfy<-mean(Y,na.rm=TRUE)-qt(0.975,ddl)*sd(Y,na.rm=TRUE)
   liminfyx<-tapply(Y,X,mean,na.rm=T)-tapply(Y,X,sd,na.rm=T)*qt(0.975,ddlg)

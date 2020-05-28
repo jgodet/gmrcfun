@@ -53,7 +53,7 @@ descr1<-function(Y,Tap=FALSE){
   aze[9,]<-min(Y,na.rm=TRUE)
   aze[10,]<-max(Y,na.rm=TRUE)
   aze[11:17,1]<-qtl(Y)
-  aze[18,]<-IQR(Y,na.rm=TRUE)
+  aze[18,]<-stats::IQR(Y,na.rm=TRUE)
   aze[19,]<-liminfy
   aze[20,]<-limsupy
   aze[21,]<-liminfy2
